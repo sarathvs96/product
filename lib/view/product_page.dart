@@ -49,6 +49,7 @@ class _ProductPageState extends State<ProductPage> {
                 );
               },
               child: Container(
+                margin: EdgeInsets.all(10),
                 child: Text(prod.name),
               ),
             );
